@@ -8,8 +8,9 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 #page-wrapper {
@@ -21,7 +22,7 @@ li {
 }
 
 a {
-    color: #000;
+    color: white;
     text-decoration: none;
 }
 
@@ -51,14 +52,14 @@ a {
 }
 
 header {
-    position: fixed;
     top: 0;
+    position: fixed;
     min-height: 75px;
     padding: 0px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #eee;
+    background-color: black;
 }
 
 @media (max-width: 600px) {
@@ -155,11 +156,11 @@ nav>ul {
     height: 30px;
     margin: 15px 0;
     border: 0;
-    background-color: #f1c40f;
+    background-color: darkred;
 }
 
 #hero input[type="submit"]:hover {
-    background-color: orange;
+    background-color: pink;
     transition: background-color 1s;
 }
 
@@ -179,7 +180,7 @@ nav>ul {
     justify-content: center;
     height: 125px;
     width: 20vw;
-    color: darkorange;
+    color: darkred;
 }
 
 @media (max-width: 550px) {
@@ -237,7 +238,7 @@ nav>ul {
     text-align: center;
     width: calc(100% / 3);
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid white;
     border-radius: 3px;
 }
 
@@ -265,12 +266,12 @@ nav>ul {
 .product>button {
     border: 0;
     margin: 15px 0;
-    background-color: #f1c40f;
+    background-color: darkred;
     font-weight: 400;
 }
 
 .product>button:hover {
-    background-color: orange;
+    background-color: pink;
     transition: background-color 1s;
 }
 
